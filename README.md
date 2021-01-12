@@ -1,6 +1,6 @@
-# Title
+# Elite Qualifier
 
-Simple (or clever and funny?) description
+Post from Reddits Subreddits Cars, Motorcycles, and Trucks.
 
 ## Table of Contents
 
@@ -12,14 +12,14 @@ Simple (or clever and funny?) description
 
 ## Background
 
-This is why this application exists.
+This code exist to automatically pull recent post from three subreddits.
 
 ## Install
 
-These are the steps to setup your local environment to run this application.
+Use Python 3.8.2
 
 ## Usage
 
-These are the steps to use the application or interact with it.
+To use this program enter any button, Enjoy!
 
 ### Any optional sections
