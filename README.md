@@ -24,4 +24,9 @@ To use this program enter any button, Enjoy!
 
 ### Any optional sections
 
-maria's small change
+## Test Plan
+
+To test the project:
+
+1.  Run the test
+2.  Check the results
