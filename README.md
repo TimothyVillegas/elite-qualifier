@@ -22,8 +22,6 @@ Use Python 3.8.2
 
 To use this program enter any button, Enjoy!
 
-### Any optional sections
-
 ## Test Plan
 
 To test the project:
