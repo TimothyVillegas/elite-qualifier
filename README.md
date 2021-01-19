@@ -24,7 +24,8 @@ To use this program enter any button, Enjoy!
 
 ## Test Plan
 
-To test the project:
+To test the project :
 
 1.  Run the test
 2.  Check the results
+3.  Submit a test report
