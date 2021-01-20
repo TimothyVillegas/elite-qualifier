@@ -29,4 +29,4 @@ To test the project :
 1.  Run the test
 2.  Check the results
 3.  Submit a test report
-4.  conflict
+4.  conflict 2
