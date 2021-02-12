@@ -28,11 +28,14 @@ class MyTests(unittest.TestCase):
     return MockResponse(None, 404)
     
   @mock.patch('requests.get', side_effect=mocked_requests_get)
-  def test_truck_subreddit(self):
-    soup = get_soup_from_url('https://localhost:1234/r/Trucks/')
+  def test_truck_subreddit(self, mock_get):
+    reddit_truck_url = 'https://localhost:1234/r/Trucks/'
+    soup = get_soup_from_url(reddit_truck_url)
     self.assertIsNotNone(soup)
     posts = soup.select('.Post')
     self.assertEqual(2, len(posts))
+    # We can even assert that our mocked method was called with the right parameters
+    self.assertIn(mock.call(reddit_truck_url), mock_get.call_args_list)
 
 if __name__ == '__main__':
   unittest.main()
