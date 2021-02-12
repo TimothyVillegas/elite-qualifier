@@ -35,7 +35,7 @@ class MyTests(unittest.TestCase):
     posts = soup.select('.Post')
     self.assertEqual(2, len(posts))
     # We can even assert that our mocked method was called with the right parameters
-    self.assertIn(mock.call(reddit_truck_url), mock_get.call_args_list)
+    self.assertIn(mock.call(reddit_truck_url, headers()), mock_get.call_args_list)
 
 if __name__ == '__main__':
   unittest.main()
