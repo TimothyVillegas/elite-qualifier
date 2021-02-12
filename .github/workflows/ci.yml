@@ -40,8 +40,8 @@ jobs:
         run: python -m poetry config virtualenvs.in-project true
 
       # un-comment this if you modify any dependency versions!
-      # - name: Update poetry lock
-      #   run: poetry update
+      - name: Update poetry lock
+        run: poetry update
 
       - name: Run poetry install
         run: poetry install
